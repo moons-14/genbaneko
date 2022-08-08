@@ -6,6 +6,10 @@
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "scripts": {
+    "lint": "run-s lint:*",
+    "lint:eslint": "eslint . --ext .ts,.tsx --fix",
+    "lint:prettier": "prettier --write .",
+    "prepare": "simple-git-hooks",
     "prebuild": "rimraf dist",
     "build": "run-p build:*",
     "build:common": "tsc",
@@ -27,6 +31,7 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
+    "simple-git-hooks": "^2.8.0",
     "ts-jest": "^28.0.7",
     "ts-node": "^10.9.1",
     "typescript": "^4.7.4"
@@ -39,5 +44,8 @@
   },
   "engines": {
     "node": ">=14"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npm test && npm run lint"
   }
 }
