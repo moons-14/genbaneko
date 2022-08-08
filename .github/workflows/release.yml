@@ -1,4 +1,4 @@
-ame: CICD
+name: CICD
 
 # Triggers when pushed to master branch
 on:
