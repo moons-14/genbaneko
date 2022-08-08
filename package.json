@@ -9,7 +9,6 @@
     "lint": "run-s lint:*",
     "lint:eslint": "eslint . --ext .ts,.tsx --fix",
     "lint:prettier": "prettier --write .",
-    "prepare": "simple-git-hooks",
     "prebuild": "rimraf dist",
     "build": "run-p build:*",
     "build:common": "tsc",
@@ -44,8 +43,5 @@
   },
   "engines": {
     "node": ">=14"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "npm test && npm run lint"
   }
 }
