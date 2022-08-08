@@ -1,0 +1,4 @@
+{
+  // もし上記２つの拡張がインストールされていない場合、インストールの推奨を表示します
+  "recommendations": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint"]
+}

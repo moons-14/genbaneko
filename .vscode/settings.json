@@ -1,0 +1,20 @@
+{
+  // 保存時に eslint によるリントを行います
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  // デフォルトのフォーマッターを prettier にします
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 保存時に prettier によって整形します
+  "editor.formatOnSave": true,
+  // タブ幅を 2 とします
+  "editor.tabSize": 2,
+  // タブにはスペースを使います
+  "editor.insertSpaces": true,
+  // 改行コードは LF とします
+  "files.eol": "\n",
+  // ファイル末尾には自動的に空行を挿入します
+  "files.insertFinalNewline": true,
+  // 拡張機能のインストール推奨を非表示にできないようにします
+  "extensions.ignoreRecommendations": false
+}

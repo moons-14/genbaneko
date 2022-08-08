@@ -1,0 +1,28 @@
+{
+  // 適用する環境
+  "env": {
+    "es6": true,
+    "node": true,
+    "commonjs": true
+  },
+  // 構文解析（パーサー）
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    // モジュール形式のソースコードを用います
+    "sourceType": "module",
+    // JS のバージョンは最新とします
+    "ecmaVersion": "latest"
+  },
+  // プラグイン
+  "plugins": ["@typescript-eslint"],
+  /**
+   *  ルールのインポート
+   *  ここでは基本的に 'recommended' に従います
+   */
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ]
+}

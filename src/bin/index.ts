@@ -1,0 +1,2 @@
+import { genbaneko } from '..';
+genbaneko();
