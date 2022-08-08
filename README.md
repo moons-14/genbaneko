@@ -79,7 +79,7 @@ $ yarn add genbaneko
 ```javascript
 import { genbaneko } from 'genbaneko';
 // or
-const genbaneko = require('genbaneko');
+const { genbaneko } = require('genbaneko');
 
 genbaneko();
 ```
