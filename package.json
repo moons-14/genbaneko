@@ -39,7 +39,7 @@
     "dist"
   ],
   "bin": {
-    "my-hello-lib": "dist/bin/index.js"
+    "genbaneko": "dist/bin/index.js"
   },
   "engines": {
     "node": ">=14"
