@@ -83,7 +83,7 @@ const { genbaneko, mGenbaneko } = require('genbaneko');
 
 // Only on-site cats are output
 genbaneko();
-mGenbaneko.nomal();
+mGenbaneko.normal();
 
 // Use this when you want your cat to speak or think
 mGenbaneko.think('Hello');
@@ -93,6 +93,24 @@ mGenbaneko.say('WTF');
 // In that case, "Yoshi !!" is displayed by default.
 mGenbaneko.think();
 mGenbaneko.say();
+```
+
+Take advantage of the command line
+```
+$ genbaneko help # or, -h, --help
+Usage: genbaneko [options] [command]
+
+Let's display "Yoshi!" on the console.
+
+Options:
+  -V, --version   output the version number
+  -h, --help      display help for command
+
+Commands:
+  say [string]    say something
+  think [string]  think something
+  help [command]  display help for command
+
 ```
 
 "Yoshi !!" is a Japanese word for "challenging during confirmation work".
