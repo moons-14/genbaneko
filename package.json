@@ -1,6 +1,6 @@
 {
   "name": "genbaneko",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "On-site cat on the console!",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
