@@ -11,20 +11,20 @@ When the code just won't work, when debugging is too tedious, this makes everyth
 This "Yoshi!" may be a flag that something bad is about to happen!
 
 ```
-　　　 ∧　　/ヽ
-　　　/／￣￣＼|
-　　 ∠＿╋＿＿〉
-　　/　①八①　ヽ ＿
-　 工ﾆf(_人_)ｴ二|′)ヽ
-　　＼ヽヽノノ ノ ヘ |
-⊂⌒)_＞―――′イ (＿)
-　`ー､_ノ/￣ヽ　｜
-　　 ＿|｜　 |　｜
-　　(　 人＿ノ　Λ
-　　 ＼ス￣￣ﾚ-Λ ＼
-　　(￣　)　/ /　＼ﾉ＼
-　　 ￣￣　(　ヽ　 ＼_)
-　　　　　　＼ノ
+　　　　　　　　　 ∧　　/ヽ
+　　　　　　　　　/／￣￣＼|
+　　　　　　　　 ∠＿＿╋＿＿〉
+　　　　　　　　/　  ①八①　＼
+　　　　　　　 工ﾆ f(_人_) ｴ |′
+　　　　　　　　＼   ヽノ  ノ ヘ 
+　　　　　　⊂⌒)_＞―――イ (＿) /
+　　　　　　　`ー､_ノ/￣ヽ　｜/
+　　　　　　　　 ＿|｜　 |　｜
+　　　　　　　　(　 人＿ノ　Λ
+　　　　　　　　 ＼ス￣￣ﾚ-Λ ＼
+　　　　　　　　(￣　)　/ /　＼ﾉ＼
+　　　　　　　　 ￣￣　(　ヽ　 ＼_)
+　　　　　　　　　　　　＼ノ
 ```
 
 ## Prerequisites
