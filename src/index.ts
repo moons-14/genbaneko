@@ -1,4 +1,4 @@
-import { perform, say, think } from 'cowsayjs/lib/box';
+import { say, think } from 'cowsayjs/lib/box';
 export const genbaneko = () => {
   console.log(
     '　　　　　　　　　 ∧　　/ヽ\n　　　　　　　　　/／￣￣＼|\n　　　　　　　　 ∠＿＿╋＿＿〉\n　　　　　　　　/　  ①八①　＼\n　　　　　　　 工ﾆ f(_人_) ｴ |′\n　　　　　　　　＼   ヽノ  ノ ヘ \n　　　　　　⊂⌒)_＞―――イ (＿) /\n　　　　　　　`ー､_ノ/￣ヽ　｜/\n　　　　　　　　 ＿|｜　 |　｜\n　　　　　　　　(　 人＿ノ　Λ\n　　　　　　　　 ＼ス￣￣ﾚ-Λ ＼\n　　　　　　　　(￣　)　/ /　＼ﾉ＼\n　　　　　　　　 ￣￣　(　ヽ　 ＼_)\n　　　　　　　　　　　　＼ノ'
