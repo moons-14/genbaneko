@@ -38,7 +38,7 @@
     "dist"
   ],
   "bin": {
-    "genbaneko": "dist/bin/index.js"
+    "genbaneko": "bin/index.js"
   },
   "engines": {
     "node": ">=14"
@@ -60,6 +60,7 @@
     "url": "https://github.com/moons-14"
   },
   "dependencies": {
+    "commander": "^9.4.0",
     "cowsayjs": "^1.0.7"
   }
 }

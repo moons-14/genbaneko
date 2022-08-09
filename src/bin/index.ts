@@ -1,2 +1,0 @@
-import { genbaneko } from '..';
-genbaneko();

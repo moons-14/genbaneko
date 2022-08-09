@@ -16,7 +16,7 @@ This "Yoshi!" may be a flag that something bad is about to happen!
 　　　　　　　　 ∠＿＿╋＿＿〉
 　　　　　　　　/　  ①八①　＼
 　　　　　　　 工ﾆ f(_人_) ｴ |′
-　　　　　　　　＼   ヽノ  ノ ヘ 
+　　　　　　　　＼   ヽノ  ノ ヘ
 　　　　　　⊂⌒)_＞―――イ (＿) /
 　　　　　　　`ー､_ノ/￣ヽ　｜/
 　　　　　　　　 ＿|｜　 |　｜
@@ -77,28 +77,27 @@ $ yarn add genbaneko
 ## Usage
 
 ```javascript
-import { genbaneko , mGenbaneko } from 'genbaneko';
+import { genbaneko, mGenbaneko } from 'genbaneko';
 // or
-const { genbaneko , mGenbaneko } = require('genbaneko');
+const { genbaneko, mGenbaneko } = require('genbaneko');
 
 // Only on-site cats are output
 genbaneko();
 mGenbaneko.nomal();
 
 // Use this when you want your cat to speak or think
-mGenbaneko.think("Hello");
-mGenbaneko.say("WTF");
+mGenbaneko.think('Hello');
+mGenbaneko.say('WTF');
 
 // It works without any text arguments.
 // In that case, "Yoshi !!" is displayed by default.
 mGenbaneko.think();
 mGenbaneko.say();
-
 ```
+
 "Yoshi !!" is a Japanese word for "challenging during confirmation work".
 It is used in Japan as a net meme when bad things happen.
 If the code for your project doesn't work, write a comment saying "なんだか知らんがとにかくよし! "
-
 
 That's all there is to it.
 Pull requests to add other kinds of "genbaneko" are welcome!
