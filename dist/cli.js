@@ -1,13 +1,18 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.cli = void 0;
 const commander_1 = require("commander");
-const __1 = require("..");
+const _1 = require(".");
 const CLI_VERSION = '0.0.0';
 /**
  * Run the command line interface program.
  * @param argv process.argv.
  */
 const cli = (argv) => {
+    if (process.argv.length === 2) {
+        _1.mGenbaneko.nomal();
+        return;
+    }
     const program = new commander_1.Command();
     program
         .name('genbaneko')
@@ -18,20 +23,15 @@ const cli = (argv) => {
         .description('say something')
         .argument('[string]', 'serif')
         .action((serif) => {
-        __1.mGenbaneko.say(serif);
+        _1.mGenbaneko.say(serif);
     });
     program
         .command('think')
         .description('think something')
         .argument('[string]', 'thought')
         .action((thought) => {
-        __1.mGenbaneko.think(thought);
+        _1.mGenbaneko.think(thought);
     });
     program.parse(argv);
 };
-if (process.argv.length === 2) {
-    __1.mGenbaneko.nomal();
-}
-else {
-    cli(process.argv);
-}
+exports.cli = cli;

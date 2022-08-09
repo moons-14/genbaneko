@@ -1,5 +1,5 @@
 import { Command } from 'commander';
-import { mGenbaneko } from '..';
+import { mGenbaneko } from '.';
 
 const CLI_VERSION = '0.0.0';
 
@@ -7,7 +7,11 @@ const CLI_VERSION = '0.0.0';
  * Run the command line interface program.
  * @param argv process.argv.
  */
-const cli = (argv: string[]) => {
+export const cli = (argv: string[]) => {
+  if (process.argv.length === 2) {
+    mGenbaneko.nomal();
+    return;
+  }
   const program = new Command();
 
   program
@@ -33,9 +37,3 @@ const cli = (argv: string[]) => {
 
   program.parse(argv);
 };
-
-if (process.argv.length === 2) {
-  mGenbaneko.nomal();
-} else {
-  cli(process.argv);
-}
