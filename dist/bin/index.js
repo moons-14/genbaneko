@@ -16,17 +16,22 @@ const cli = (argv) => {
     program
         .command('say')
         .description('Genbaneko say something')
-        .argument('<string>', 'serif')
+        .argument('[string]', 'serif')
         .action((serif) => {
         __1.mGenbaneko.say(serif);
     });
     program
         .command('think')
         .description('Genbaneko think something')
-        .argument('<string>', 'thought')
+        .argument('[string]', 'thought')
         .action((thought) => {
         __1.mGenbaneko.think(thought);
     });
     program.parse(argv);
 };
-cli(process.argv);
+if (process.argv.length === 2) {
+    __1.mGenbaneko.nomal();
+}
+else {
+    cli(process.argv);
+}

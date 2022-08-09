@@ -18,7 +18,7 @@ const cli = (argv: string[]) => {
   program
     .command('say')
     .description('Genbaneko say something')
-    .argument('<string>', 'serif')
+    .argument('[string]', 'serif')
     .action((serif) => {
       mGenbaneko.say(serif);
     });
@@ -26,7 +26,7 @@ const cli = (argv: string[]) => {
   program
     .command('think')
     .description('Genbaneko think something')
-    .argument('<string>', 'thought')
+    .argument('[string]', 'thought')
     .action((thought) => {
       mGenbaneko.think(thought);
     });
@@ -34,4 +34,8 @@ const cli = (argv: string[]) => {
   program.parse(argv);
 };
 
-cli(process.argv);
+if (process.argv.length === 2) {
+  mGenbaneko.nomal();
+} else {
+  cli(process.argv);
+}
