@@ -3,7 +3,7 @@ declare class mGenbaneko_class {
     _genbaneko(action?: string): string;
     think(message: string): void;
     say(message: string): void;
-    nomal(): void;
+    normal(): void;
 }
 export declare const mGenbaneko: mGenbaneko_class;
 export {};

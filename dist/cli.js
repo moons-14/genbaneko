@@ -10,7 +10,7 @@ const CLI_VERSION = '0.0.0';
  */
 const cli = (argv) => {
     if (process.argv.length === 2) {
-        _1.mGenbaneko.nomal();
+        _1.mGenbaneko.normal();
         return;
     }
     const program = new commander_1.Command();

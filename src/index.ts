@@ -26,7 +26,7 @@ class mGenbaneko_class {
     console.log(say(message ? message : 'Yoshi!!') + this._genbaneko('＼'));
     this._genbaneko();
   }
-  nomal() {
+  normal() {
     console.log(this._genbaneko('　'));
   }
 }

@@ -9,7 +9,7 @@ const CLI_VERSION = '0.0.0';
  */
 export const cli = (argv: string[]) => {
   if (process.argv.length === 2) {
-    mGenbaneko.nomal();
+    mGenbaneko.normal();
     return;
   }
   const program = new Command();
