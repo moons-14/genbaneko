@@ -17,7 +17,7 @@ const cli = (argv: string[]) => {
 
   program
     .command('say')
-    .description('Genbaneko say something')
+    .description('say something')
     .argument('[string]', 'serif')
     .action((serif) => {
       mGenbaneko.say(serif);
@@ -25,7 +25,7 @@ const cli = (argv: string[]) => {
 
   program
     .command('think')
-    .description('Genbaneko think something')
+    .description('think something')
     .argument('[string]', 'thought')
     .action((thought) => {
       mGenbaneko.think(thought);

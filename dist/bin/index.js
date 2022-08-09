@@ -15,14 +15,14 @@ const cli = (argv) => {
         .version(CLI_VERSION);
     program
         .command('say')
-        .description('Genbaneko say something')
+        .description('say something')
         .argument('[string]', 'serif')
         .action((serif) => {
         __1.mGenbaneko.say(serif);
     });
     program
         .command('think')
-        .description('Genbaneko think something')
+        .description('think something')
         .argument('[string]', 'thought')
         .action((thought) => {
         __1.mGenbaneko.think(thought);
