@@ -15,8 +15,6 @@
     "build:esm": "tsc -p tsconfig.esm.json",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
   "license": "MIT License",
   "devDependencies": {
     "@jest/types": "^28.1.3",
@@ -43,5 +41,21 @@
   },
   "engines": {
     "node": ">=14"
+  },
+  "keywords": [
+    "genbaneko",
+    "cat",
+    "console",
+    "yoshi",
+    "good",
+    "joke"
+  ],
+  "homepage": "https://www.npmjs.com/package/genbaneko",
+  "bugs": "https://github.com/moons-14/genbaneko/issues",
+  "repository": "github:moons-14/genbaneko",
+  "author": {
+    "name": "moons14",
+    "email": "moons@moons14.com",
+    "url": "https://github.com/moons-14"
   }
 }
