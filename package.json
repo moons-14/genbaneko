@@ -60,6 +60,7 @@
     "url": "https://github.com/moons-14"
   },
   "dependencies": {
+    "commander": "^9.4.0",
     "cowsayjs": "^1.0.7"
   }
 }
