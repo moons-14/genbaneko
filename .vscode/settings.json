@@ -1,7 +1,7 @@
 {
   // 保存時に eslint によるリントを行います
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
   // デフォルトのフォーマッターを prettier にします
   "editor.defaultFormatter": "esbenp.prettier-vscode",
